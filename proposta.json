@@ -1,0 +1,389 @@
+{
+  "slug": "pro-clinica-sorocaba",
+  "negocio": {
+    "nome": "Pró Clínica Sorocaba",
+    "logo": "brand/logo.png",
+    "whatsapp": "5515997681668",
+    "telefone": "(15) 3042-1188",
+    "funcionamento": {
+      "seg": "07:00-18:00",
+      "ter": "07:00-18:00",
+      "qua": "07:00-18:00",
+      "qui": "07:00-18:00",
+      "sex": "07:00-18:00",
+      "sab": "07:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim Ana Maria · Sorocaba",
+        "endereco": "Av. Santos Dumont, 200 – Jardim Ana Maria, Sorocaba – SP, 18065-290",
+        "telefone": "(15) 3042-1188 · WhatsApp (15) 99768-1668",
+        "horario": "Seg a sex, 7h às 18h · sábado, 7h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#1e3f8c",
+    "brand2": "#162f6b",
+    "ink": "#1b2a3a",
+    "bg": "#ffffff",
+    "pulse": "#03a2d7",
+    "radius": "10px",
+    "registro": "clinico",
+    "fontDisplay": "Montserrat",
+    "fontBody": "Mulish",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "ecg",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#especialidades"
+          },
+          {
+            "texto": "Exames",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Clínica médica e odontológica · Sorocaba",
+        "h1": "Médico, dentista e exame no mesmo endereço",
+        "lead": "Clínico geral e mais de 20 especialidades, odontologia e exames. Sem plano e sem mensalidade: você marca pelo WhatsApp e paga só o atendimento do dia.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Escolher a especialidade",
+        "ctaSecundarioHref": "#especialidades",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da Pró Clínica Sorocaba, com o letreiro e as indicações de exames, consultas e odontologia",
+        "tarja": [
+          "4,7 no Google, 1.116 avaliações",
+          "Sem mensalidade e sem plano",
+          "Abre às 7h, de segunda a sábado",
+          "Médico e dentista no mesmo prédio"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Clínico geral",
+          "Cardiologia",
+          "Ginecologia",
+          "Pediatria",
+          "Dermatologia",
+          "Ortopedia",
+          "Oftalmologia",
+          "Psiquiatria",
+          "Odontologia",
+          "Ultrassom",
+          "Exames de laboratório"
+        ]
+      }
+    },
+    {
+      "custom": "blocos/especialidades.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que Sorocaba já disse da Pró Clínica",
+        "itens": [
+          {
+            "valor": "4,7",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "1.116",
+            "rotulo": "avaliações de pacientes",
+            "contar": 1116
+          },
+          {
+            "valor": "20+",
+            "rotulo": "especialistas no mesmo endereço",
+            "contar": 20
+          },
+          {
+            "valor": "R$ 0",
+            "rotulo": "de mensalidade"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Pró Clínica",
+        "texto": [
+          "A Pró Clínica é para quem não tem plano e não quer esperar meses por uma consulta. É particular, com preço que dá para pagar no dia.",
+          "Não é plano nem cartão de desconto. Você marca, é atendido, faz o exame no mesmo prédio e volta quando precisar."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Sala de espera da Pró Clínica Sorocaba, com cadeiras e a entrada de vidro para a avenida"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "O que dá para resolver ali mesmo",
+        "lead": "Do pedido do médico ao resultado, sem rodar a cidade com a guia na mão.",
+        "itens": [
+          {
+            "nome": "Consultas médicas",
+            "descricao": "Clínico geral e especialistas, com horário marcado e retorno quando o médico pedir.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Exames por imagem",
+            "descricao": "Ultrassom feito na própria clínica, sem precisar marcar em outro lugar.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Exames do coração",
+            "descricao": "Exames cardiológicos feitos na clínica, para levar ao cardiologista na mesma visita.",
+            "icone": "batimento"
+          },
+          {
+            "nome": "Análises clínicas",
+            "descricao": "Exames de sangue e de laboratório com coleta no mesmo endereço.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Odontologia",
+            "descricao": "Clínico geral, implante e aparelho ortodôntico, num consultório próprio dentro da clínica.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Saúde mental",
+            "descricao": "Psicologia e psiquiatria, com acompanhamento e receita no mesmo lugar.",
+            "icone": "cerebro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Como se marca",
+        "titulo": "Uma mensagem e o horário está na agenda",
+        "lead": "A recepção responde pelo WhatsApp com valor, horário e o que levar.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Pró Clínica Sorocaba",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Vocês têm ginecologista? Não tenho convênio."
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Temos sim, e não precisa de convênio: você paga só a consulta. Já te passo o valor."
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem horário na terça às 8h. Se ela pedir ultrassom, dá para fazer aqui mesmo."
+          },
+          {
+            "de": "paciente",
+            "texto": "Pode marcar terça então."
+          },
+          {
+            "de": "clinica",
+            "texto": "Marcado! Traga um documento com foto e chegue uns 15 minutinhos antes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Você diz o que precisa",
+            "texto": "Pelo WhatsApp ou telefone. A recepção indica a especialidade ou o exame certo.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Horário marcado",
+            "texto": "Consulta com hora definida, de segunda a sábado, a partir das 7h.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Consulta",
+            "texto": "O médico ou o dentista examina, orienta e, se precisar, pede exames.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Exames e retorno",
+            "texto": "Boa parte dos exames é feita ali. Depois, o retorno para ler os resultados com você.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "itens": [
+          {
+            "imagem": "midia/espera.jpg",
+            "legenda": "A sala de espera"
+          },
+          {
+            "imagem": "midia/consultorio.jpg",
+            "legenda": "Um dos consultórios"
+          },
+          {
+            "imagem": "midia/odonto.jpg",
+            "legenda": "O consultório odontológico"
+          },
+          {
+            "imagem": "midia/letreiro.jpg",
+            "legenda": "Na Av. Santos Dumont, 200"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou por lá",
+        "itens": [
+          {
+            "texto": "Atendimento foi ótimo, recepção dos atendentes, médico foi atenciosa e dedicada.",
+            "autor": "Paciente",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Lugar excelente, médicos e funcionários todos nota 1000.",
+            "autor": "Paciente",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Quero deixar meu agradecimento pela excelente atenção no atendimento. Obrigada pela empatia e pelo atendimento rápido.",
+            "autor": "Tatiana R.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "lista",
+      "data": {
+        "titulo": "Responsáveis técnicos",
+        "itens": [
+          {
+            "nome": "Quezia Pereira Moura",
+            "registro": "CRM-SP 223.445",
+            "especialidade": "Responsável técnica médica"
+          },
+          {
+            "nome": "Miken Muller Silveira Alves",
+            "registro": "CRO-SP 140.613",
+            "especialidade": "Responsável técnico odontológico"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas de quem vai pela primeira vez",
+        "itens": [
+          {
+            "p": "A Pró Clínica é plano de saúde?",
+            "r": "Não. É uma clínica particular: você paga só a consulta ou o exame que fizer, sem mensalidade."
+          },
+          {
+            "p": "Atende pelo SUS ou por convênio?",
+            "r": "Não. O atendimento é particular, com preço acessível. A recepção informa o valor antes de marcar."
+          },
+          {
+            "p": "Quanto custa a consulta?",
+            "r": "Depende da especialidade. Mande uma mensagem no WhatsApp e a recepção passa o valor na hora."
+          },
+          {
+            "p": "Dá para fazer o exame no mesmo dia?",
+            "r": "Muitos sim. Ultrassom, exames do coração e coleta de laboratório são feitos na própria clínica."
+          },
+          {
+            "p": "Tem dentista?",
+            "r": "Tem. Clínico geral, implante e ortodontia, no mesmo prédio dos médicos."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda a sexta, das 7h às 18h, e sábado, das 7h às 12h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua consulta, seu exame ou seu dentista",
+        "lead": "Mande uma mensagem com o que você precisa. A recepção responde com valor e horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Pró Clínica Sorocaba · CRM-SP 994043 · CRO-SP 025304 · Responsável técnica médica: Dra. Quezia Pereira Moura, CRM-SP 223.445 · Responsável técnico odontológico: Dr. Miken Muller Silveira Alves, CRO-SP 140.613",
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#especialidades"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}
